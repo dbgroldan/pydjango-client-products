@@ -9,6 +9,9 @@ A simple application for the use of CLIENT-PRODUCTS APP.
 Daissi Bibiana Gonzalez Roldan
 **E-Mail:** dbgroldan@gmail.com
 
+## Documentation
+[Postman Docs](https://documenter.getpostman.com/view/10068931/Szt7AWfT Postman Docs)
+
 ### How to use this project
 
 1. **Clone this Repo**
@@ -18,6 +21,7 @@ Daissi Bibiana Gonzalez Roldan
 2. **Build the Dockerfile**
   ```sh
   → docker-compose up --build -d
+  → docker-compose exec app python manage.py migrate
   ```
 
 4. **Enter the web page, on the routes:**
