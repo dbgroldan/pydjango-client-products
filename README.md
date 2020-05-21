@@ -22,6 +22,6 @@ Daissi Bibiana Gonzalez Roldan
 
 4. **Enter the web page, on the routes:**
 
-[127.0.0.1:3000](http://127.0.0.1:80 "Link a Pagina")
+[127.0.0.1:80](http://127.0.0.1:80 "Link a Pagina")
 
 **Note:** The website will work in test mode.

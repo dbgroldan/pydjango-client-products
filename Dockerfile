@@ -13,4 +13,4 @@ RUN . /env/bin/activate && pip install -r requirements.txt
 
 # Run the application:
 COPY . .
-CMD . /env/bin/activate && ./manage.py runserver
+CMD . env/bin/activate && ./manage.py runserver
