@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 RUN apt-get update && apt-get install \
-  -y --no-install-recommends python3 python3-virtualenv
+  -y --no-install-recommends python3 python3-virtualenv gcc
 
 RUN apt-get install -y libpq-dev python3-dev
 
@@ -12,5 +12,5 @@ COPY requirements.txt .
 RUN . /env/bin/activate && pip install -r requirements.txt
 
 # Run the application:
-COPY myapp.py .
+COPY . .
 CMD . /env/bin/activate && ./manage.py runserver
