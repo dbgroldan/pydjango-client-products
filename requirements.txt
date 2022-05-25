@@ -11,7 +11,7 @@ inflection==0.4.0
 jwt==1.0.0
 psycopg2==2.8.5
 pycparser==2.20
-PyJWT==1.7.1
+PyJWT==2.4.0
 pytz==2020.1
 six==1.14.0
 sqlparse==0.3.1
